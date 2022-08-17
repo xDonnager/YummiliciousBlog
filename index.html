@@ -6,32 +6,52 @@
         <title>Donnager Blog Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
         <link rel="stylesheet" href="styles/app.css">
     </head>
     <body>
         <header class="header">
-            <h1>Yummilicious Blog</h1>
+            <h1>Yummilicious</h1>
             <hr>
         </header>
 
         <div class="wrapper">
             <div class="menu">
-                <h2>Sweet Posts</h2>
-                <h2>Salty Posts</h2>
-                <h2>Vegan Posts</h2>
+                <div class="items">
+                    <span class="material-symbols-outlined">
+                        bakery_dining
+                    </span>
+                    <h2>Sweet</h2>                 
+                </div>
+                <div class="items">
+                    <span class="material-symbols-outlined">
+                        local_pizza
+                    </span>
+                    <h2>Salty</h2>                 
+                </div>
+                <div class="items">
+                    <span class="material-symbols-outlined">
+                        nest_eco_leaf
+                    </span>
+                    <h2>Vegan</h2>                 
+                </div>
             </div>
 
-            <div class="main-post" style="background-image: url('./img/strawberryCake.jpg');">
+            <div class="main-post">
                 <div class="info-main-post">
-                    <h3>Strawberry Cake</h3>
-                    <p>Discover the incredible sensation of this masterpiece in your kitchen</p>
+                    <h1>Breakfast Lounge</h1>
+                    <p>Join the chill morning mood</p>
                     <a href="post.html">Tell me more</a>
                 </div>
             </div>
 
             <div class="grid-posts">
                 <div class="card-post">
-                    <img src="https://loremflickr.com/300/360" alt="">
+                    <div class="image"></div>
                     <div class="info-post">
                         <h3>Strawberry Cake</h3>
                         <p>Discover the incredible sensation of this masterpiece in your kitchen</p>
@@ -39,7 +59,7 @@
                     </div>
                 </div>
                 <div class="card-post">
-                    <img src="https://loremflickr.com/300/360" alt="">
+                    <div class="image"></div>
                     <div class="info-post">
                         <h3>Strawberry Cake</h3>
                         <p>Discover the incredible sensation of this masterpiece in your kitchen</p>
@@ -47,7 +67,7 @@
                     </div>
                 </div>
                 <div class="card-post">
-                    <img src="https://loremflickr.com/300/360" alt="">
+                    <div class="image"></div>
                     <div class="info-post">
                         <h3>Strawberry Cake</h3>
                         <p>Discover the incredible sensation of this masterpiece in your kitchen</p>
@@ -55,7 +75,7 @@
                     </div>
                 </div>
                 <div class="card-post">
-                    <img src="https://loremflickr.com/300/360" alt="">
+                    <div class="image"></div>
                     <div class="info-post">
                         <h3>Strawberry Cake</h3>
                         <p>Discover the incredible sensation of this masterpiece in your kitchen</p>
@@ -65,18 +85,16 @@
             </div>
 
             <div class="subscribe">
-                <h3>Subscribe to our Blog</h3>
+                <h2>Subscribe to our Blog</h2>
                 <p>Follow the tastyness</p>
-                <label>E-mail: </label>
-                <input type="email">
-                <button class="subscirbe-btn">I'm In!</button>
+                <input type="email" placeholder="Email">
+                <button class="sub-btn">I'm In!</button>
             </div>
             <div class="footer">
-                <p>Copyright 2022 - xDonnager</p>
-                <ul>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
-                </ul>
+                <i class="social">Instagram</i>
+                <i class="social">Twitter</i>
+                <i class="social">TikTok</i>
+                <p>© Copyright 2022 xDonnager</p>
             </div>
         </div>
         
