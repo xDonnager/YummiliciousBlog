@@ -3,8 +3,8 @@ footer {
     grid-column: 1/5;
 }
 
-.wrapper .footer {
-    color: #fcf8e8;
+.footer {
+    color: #FCF8E8;
     background: #94b49f;
 
     display: flex;
@@ -12,12 +12,17 @@ footer {
     align-items: center;
     padding-top: 3%;
 }
-    
-.wrapper .footer > p {
+ 
+.footer .material-symbols-outlined {
+    font-size: 1em ;
+}
+
+.footer > p {
     padding: 2%;
 }
 
-.wrapper .footer > a {
+.footer > a {
     padding-bottom: 1%;
+    color: #FCF8E8;;
     text-decoration: none;
 }
