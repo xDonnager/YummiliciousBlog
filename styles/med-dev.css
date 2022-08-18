@@ -1,19 +1,30 @@
+/* Home */
 .header {
     font-size: 1.8em;
 }
 
-.wrapper .menu .items {
-    margin: 3% 0;
-    font-size: 1em;
-}
-
-.wrapper .menu .items > h2 {
+.menu .items > h2 {
     display: none;
-}
-.wrapper .menu .items > span {
-    font-size: 2em;
 }
 
 .wrapper .grid-posts {
     grid-template-columns: 1fr;
+}
+
+/* Post */
+
+.wrapper .post-content {
+    grid-column: span 4;
+}
+
+.wrapper .banner {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+}
+
+.wrapper .other-posts {
+    grid-template-columns: repeat(2, 1fr);
 }

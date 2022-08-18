@@ -7,16 +7,16 @@
 
 /* images */
 #one {
-    background-image: url('../img/pancakes_3.jpg');
+    background-image: url('../../img/pancakes_3.jpg');
 }
 #two {
-    background-image: url('../img/pie.jpg');
+    background-image: url('../../img/pie.jpg');
 }
 #three {
-    background-image: url('../img/youghurt.jpg');
+    background-image: url('../../img/youghurt.jpg');
 }
 #four {
-    background-image: url('../img/toast.jpg');
+    background-image: url('../../img/toast.jpg');
 }
 
 .card-post .image {

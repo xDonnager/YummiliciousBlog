@@ -1,0 +1,50 @@
+.wrapper .other-posts {
+    grid-column: span 4;
+    margin: 1em;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.other-post {
+    height: 25vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+/*images*/
+#aone {
+    background-image: url('../../img/youghurt.jpg');
+}
+#atwo {
+    background-image: url('../../img/toast.jpg');
+}
+#athree {
+    background-image: url('../../img/pancakes_2.jpg');
+}
+#afour {
+    background-image: url('../../img/pie.jpg');
+}
+
+.info-other-post {
+    background: #0000009e;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.info-other-post:hover {
+    background: #ECB390;
+}
+
+.info-other-post > h4 {
+    padding: 5% 10%;
+    border: 1px solid #f7f7f7;
+}
+.info-other-post a {
+    text-decoration: none;
+}

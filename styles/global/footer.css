@@ -1,6 +1,9 @@
 /* Footer */
-.wrapper .footer {
+footer {
     grid-column: 1/5;
+}
+
+.wrapper .footer {
     color: #fcf8e8;
     background: #94b49f;
 
@@ -16,4 +19,5 @@
 
 .wrapper .footer > a {
     padding-bottom: 1%;
+    text-decoration: none;
 }

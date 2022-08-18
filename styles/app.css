@@ -1,161 +1,18 @@
 @import 'base.css';
-@import 'header.css';
-@import 'wrapper.css';
-@import 'menu.css';
-@import 'main-post.css';
-@import 'grid-posts.css';
-@import 'card-post.css';
-@import 'subscribe.css';
-@import 'footer.css';
 
-@import 'small-dev.css' screen and (max-width: 600px);
+@import './global/header.css';
+@import './global/wrapper.css';
+@import './global/menu.css';
+@import './global/subscribe.css';
+@import './global/footer.css';
+
+@import './home/main-post.css';
+@import './home/grid-posts.css';
+@import './home/card-post.css';
+
+@import './post/post-content.css';
+@import './post/banner.css';
+@import './post/other-posts.css';
+
 @import 'med-dev.css' screen and (max-width: 900px);
-
-
-/* .wrapper > div {
-    background: white;
-    border: 2px solid black;
-} */
-
-.wrapper .post-content {
-    grid-column: span 3;
-    padding: 2em;
-    line-height: 1.5em;
-}
-
-.wrapper .post-content h2{
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-.wrapper .post-content h3{
-    margin-bottom: 0.5em;
-}
-.wrapper .post-content p{
-    margin: 1em auto;
-}
-.wrapper .post-content ol{
-    margin-left: 2em;
-}
-
-.post-content .image {
-    margin: 1em auto;
-}
-
-.post-content .image a {
-    color: #444;
-    font-size: 0.8em;
-    font-style: italic;
-}
-
-#post-img {
-    background-image: url('../img/breakfast.jpg');
-    height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.wrapper .banner {
-    grid-column: span 1;
-    background: #ECB390;
-    color: #f7f7f7;
-    margin: 1em;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.wrapper .banner > div {
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-}
-.wrapper .banner div > img {
-    width: 20vw;
-    margin: 0 auto;
-}
-.wrapper .banner div > h2 {
-    margin: 1em 0 0.5em 0;
-}
-
-.wrapper .other-posts {
-    grid-column: span 4;
-    margin: 1em;
-
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5em;
-}
-
-.info-other-post {
-    background: #0000009e;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
-}
-.info-other-post:hover {
-    background: #ECB390;
-}
-
-.info-other-post h3 {
-    padding: 5% 10%;
-    border: 1px solid #f7f7f7;
-}
-.info-other-post a {
-    text-decoration: none;
-}
-
-
-.other-post {
-    height: 25vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; 
-}
-#aone {
-    background-image: url('../img/youghurt.jpg');
-}
-#atwo {
-    background-image: url('../img/toast.jpg');
-}
-#athree {
-    background-image: url('../img/pancakes_2.jpg');
-}
-#afour {
-    background-image: url('../img/pie.jpg');
-}
-
-
-
-@media screen and (max-width: 900px){
-    .wrapper .post-content {
-        grid-column: span 4;
-    }
-    
-    .wrapper .banner {
-        grid-column: span 4;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 1em;
-    }
-
-    .wrapper .other-posts {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 600px){
-
-    .wrapper .banner {
-        flex-direction: column;
-    }
-
-    .wrapper .other-posts {
-        grid-template-columns: 1fr;
-    }
-    
-}
+@import 'small-dev.css' screen and (max-width: 600px);

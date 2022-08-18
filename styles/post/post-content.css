@@ -1,0 +1,52 @@
+.wrapper .post-content {
+    grid-column: span 3;
+    padding: 2em;
+    line-height: 1.5em;
+}
+
+.post-title{
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+.post-subtitle {
+    margin-bottom: 0.5em;
+    color: #ECB390;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.author .material-symbols-outlined {
+    margin-right: 0.3em;
+}
+
+.post-content > p{
+    margin: 1em auto;
+}
+
+.post-content > ol{
+    margin-left: 2em;
+}
+
+.post-content .image {
+    margin: 1em auto;
+}
+
+.post-content .image > a {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #444
+}
+
+#post-img {
+    background-image: url('../../img/breakfast.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

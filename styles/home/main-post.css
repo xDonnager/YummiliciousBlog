@@ -3,7 +3,7 @@
     grid-column: 1/5;
     height: 60vh;
 
-    background-image: url('../img/breakfast.jpg');
+    background-image: url('../../img/breakfast.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
