@@ -4,6 +4,7 @@
     background: #ECB390;
     color: #f7f7f7;
     margin: 1em;
+    cursor: pointer;
 
     display: flex;
     flex-direction: column;
