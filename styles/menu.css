@@ -1,0 +1,21 @@
+/* Menu */
+.wrapper .menu {
+    grid-column: 1/5;
+    color: #94B49F;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.wrapper .menu .items {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5em;
+    font-size: 1.2em;
+}
+
+.wrapper .menu .items:hover{
+    color: #ECB390;
+}

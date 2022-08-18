@@ -1,0 +1,28 @@
+.header {
+    font-size: 1.8em;
+}
+
+.info-main-post > h1 {
+    text-align: center;
+}
+
+.wrapper .menu .items {
+    margin: 3% 0;
+    font-size: 1em;
+}
+
+.wrapper .menu .items > h2 {
+    display: none;
+}
+.wrapper .menu .items > span {
+    font-size: 2em;
+}
+
+.wrapper .grid-posts {
+    grid-template-columns: 1fr;
+}
+
+.wrapper .grid-posts .card-post{
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+}

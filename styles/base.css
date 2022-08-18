@@ -1,0 +1,22 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border-style: none none dotted none;
+    border-width: 15px;
+    width: 2em;
+    color: #FCF8E8;
+    margin: 0.5em auto;
+}
+
+a {
+    color: #f7f7f7;
+}
+
+body {
+    background: #94B49F;
+    font-family: 'Montserrat', sans-serif;
+}

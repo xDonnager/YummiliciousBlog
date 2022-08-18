@@ -1,0 +1,19 @@
+.header {
+    font-size: 1.8em;
+}
+
+.wrapper .menu .items {
+    margin: 3% 0;
+    font-size: 1em;
+}
+
+.wrapper .menu .items > h2 {
+    display: none;
+}
+.wrapper .menu .items > span {
+    font-size: 2em;
+}
+
+.wrapper .grid-posts {
+    grid-template-columns: 1fr;
+}

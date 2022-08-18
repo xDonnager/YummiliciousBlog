@@ -1,0 +1,10 @@
+.wrapper {
+    background-color: #FCF8E8;
+    width: 90%;
+    max-width: 1200px;
+    margin: 1.2em auto;
+    
+    display: grid;
+    gap: 0 1.6em;
+    grid-template-columns: repeat(4, 1fr);
+}
